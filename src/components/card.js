@@ -7,7 +7,7 @@ export default function Cards(props)
   const text6="Dedicated Phone Support";
   const text7="Free Subdomain";
   const text8="Monthly Status Reports";
-  
+  const textn="Not Available"
   return(
     <div class="col-lg-4">
     <div class="card mb-5 mb-lg-0">
@@ -20,13 +20,13 @@ export default function Cards(props)
          
           
                 {props.text1?(<li><span class="fa-li bold"><i class="fas fa-check"></i></span><b>{props.text1}</b></li>
-                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{text5}</li>)}
+                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{textn}</li>)}
                 {props.text2?(<li><span class="fa-li"><i class="fas fa-check"></i></span>{props.text2}</li>
-                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{text5}</li>)}
+                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{textn}</li>)}
                 {props.text3?(<li><span class="fa-li"><i class="fas fa-check"></i></span>{props.text3}</li>
-                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{text5}</li>)}
+                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{textn}</li>)}
                 {props.text4?(<li><span class="fa-li"><i class="fas fa-check"></i></span>{props.text4}</li>
-                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{text5}</li>)}
+                ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{textn}</li>)}
                 {props.text5?(<li><span class="fa-li"><i class="fas fa-check"></i></span>{props.text5}</li>
                 ):(<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{text5}</li>)}
                  {props.text6?(<li><span class="fa-li"><i class="fas fa-check"></i></span>{props.text6}</li>
